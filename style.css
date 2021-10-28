@@ -17,6 +17,7 @@ header{
     background-color: #0186ff;
     margin-bottom: 5px;
     height: 350px;
+    width: 100%;
 }
 footer{
     background-color: #8801fe;
@@ -29,33 +30,22 @@ footer{
 }
 
 .menu{
-    width: 20%;
-    height: 100px;
-    background-color: #abcfe7;
-    margin-top: 20px;
+    width: 20%; 
+}
 
-}
-.fl{
-    float: left;
-    margin-right: 2%;
-    height: 315px;
-}
-.fr{
-    float: right;
-    margin-left: 1%;
-    height: 315px;
-
-}
 
 .main{
     width: 56%;
-    height: 315px;
-    background-color:#abcfe7;
-    display: inline-block;
-    margin-top: 20px;
-    margin-right: 10px;
+    margin: 10px 2% 0 2%;
+    
 }
 #banner{
     background-color: #abcfe7;
     height: 40px;
+}
+.container > div{
+    height: 315px;
+    float: left;
+    margin: 10px 0 0 0;
+    background-color: #abcfe7;
 }
