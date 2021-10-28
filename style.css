@@ -22,3 +22,40 @@ footer{
     background-color: #8801fe;
     height: 30px;
 }
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.menu{
+    width: 20%;
+    height: 100px;
+    background-color: #abcfe7;
+    margin-top: 20px;
+
+}
+.fl{
+    float: left;
+    margin-right: 2%;
+    height: 315px;
+}
+.fr{
+    float: right;
+    margin-left: 1%;
+    height: 315px;
+
+}
+
+.main{
+    width: 56%;
+    height: 315px;
+    background-color:#abcfe7;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.unknown{
+    background-color: #abcfe7;
+    height: 40px;
+}
